@@ -54,10 +54,10 @@ function Game() {
   }, []);
 
   const handleForgeClick = () => {
-    // setGold(prevPoints => prevPoints + 1);
+    setGold(prevPoints => prevPoints + 1);
 
-    setGold(0);
-    setGoldPerSecond(0);
+    // setGold(0);
+    // setGoldPerSecond(0);
   };
 
   const handleUpgradeClick = () => {
